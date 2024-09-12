@@ -1,0 +1,21 @@
+body{
+    background-color: #FFE066;
+}
+#restaurant-name{
+    font-size: 4rem;
+}
+#content{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+}
+#box1{
+    background-color: white;
+    border: solid 3px brown;
+    border-radius: 20px;
+    padding: 10px 50px;
+    text-align: center;
+    width: 500px;
+    font-weight: 600;
+}
