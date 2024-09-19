@@ -1,6 +1,6 @@
 import "./styles.css";
 import {loadHome} from "./home.js";
-import {example} from "./menu.js";
+import {loadMenu} from "./menu.js";
  
 const content = document.querySelector("#content");
 loadHome();
@@ -14,5 +14,5 @@ homeNav.addEventListener("click", () => {
 const menuNav = document.querySelector("#menu");
 menuNav.addEventListener("click", () => {
     content.replaceChildren();
-    return example();
+    return loadMenu();
 });
