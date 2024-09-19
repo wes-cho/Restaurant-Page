@@ -10,6 +10,40 @@ function loadMenu(){
         menuBox.setAttribute("id", "menu");
         content.appendChild(menuBox);
 
+
+    const menu = [
+        {
+            title: 'Espresso',
+            price: '$2.75',
+            description: 'A shot of espresso. Plain and simple.',
+        },
+        {
+            title: 'Cappuccino',
+            price: '$4.50',
+            description: 'Espresso, milk, and foam. Perfectly balanced, as all things should be.',
+        },
+        {
+            title: 'Latte',
+            price: '$5.00',
+            description: 'Everyone\'s favorite drink, everywhere, all of the time.',
+        },
+        {
+            title: 'Matcha',
+            price: '$4.00',
+            description: 'Ceremonial-grade matcha, for any occasion.',
+        },
+        {
+            title: 'Matcha Latte',
+            price: '$6.00',
+            description: 'Matcha, steamed milk, and agave. A match-a made in heaven.',
+        },
+        {
+            title: 'Seasonal',
+            price: '$6.75',
+            description: 'Limited-time special, unlimited happiness.',
+        },
+    ];
+
     const menuItem = document.createElement("div");
     menuBox.appendChild(menuItem);
         menuItem.setAttribute('class', 'menu-item');
@@ -38,4 +72,6 @@ function loadMenu(){
             description1.textContent = "Espresso, milk, and foam. Perfectly balanced as all things should be.";
             menuItem1.appendChild(description1);
 }
+
+
 
