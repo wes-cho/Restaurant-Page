@@ -1,5 +1,19 @@
 body{
+    background-color: #002927;
+    margin-bottom: 3rem;
+    display: grid;
+    justify-content: center;
+    gap: 2rem;
+}
+#content{
+    display: grid;
     background-color: #FFD21F;
+    padding-bottom: 5rem;
+    border-radius: 30px;
+    justify-content: center;
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    width: 1400px;
 }
 #navbar{
     display: flex;
@@ -7,7 +21,9 @@ body{
     gap: 2rem;
 }
 nav button{
-    background-color: #FFD21F;
+    background-color: #002927;
+    color: #FFD21F;
+    border: 2px solid #FFD21F;
     font-family: "Playfair Display", serif;
     font-size: 1.5rem;
     font-weight: 600;
@@ -17,16 +33,10 @@ nav button{
 }
 #restaurant-header{
     font-size: 6rem;
-    background-color: #003E1F;
+    background-color: #FFD21F;
     border-radius: 5px;
     padding: 1rem 3rem;
-    color: #DCFFFD;
-}
-#content{
-    display: grid;
-    justify-content: center;
-    text-align: center;
-    font-family: "Playfair Display", serif;
+    color: #003E1F;
 }
 #homepage-message{
     justify-self: center;
@@ -46,6 +56,10 @@ nav button{
     border-radius: 20px;
 }
 
+#menu{
+    display: flex;
+    gap: 2rem;
+}
 .menu-item{
     background-color: white;
     border: solid 3px #003E1F;
