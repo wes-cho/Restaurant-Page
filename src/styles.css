@@ -34,8 +34,8 @@ nav button{
 #restaurant-header{
     font-size: 6rem;
     background-color: #FFD21F;
-    border-radius: 5px;
-    padding: 1rem 3rem;
+    /* border-radius: 5px;
+    padding: 1rem 3rem; */
     color: #003E1F;
 }
 #homepage-message{
