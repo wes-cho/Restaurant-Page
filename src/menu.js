@@ -7,8 +7,12 @@ function loadMenu(){
     content.appendChild(header);
 
     const menuContainer = document.createElement("div");
-        menuContainer.setAttribute("id", "menu");
+        menuContainer.setAttribute("id", "menu-container");
     content.appendChild(menuContainer);
+
+    const row = document.createElement('div');
+        row.setAttribute('class', 'menu-row');
+    menuContainer.appendChild(row);
 
     const menu = [
         {
@@ -56,9 +60,9 @@ function loadMenu(){
             const description = document.createElement('p');
                 description.textContent = menu[item].description;
                 itemCard.appendChild(description);
-        menuContainer.appendChild(itemCard);     
+        row.appendChild(itemCard);
     };
-;}
+};
 
 
 

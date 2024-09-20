@@ -34,6 +34,8 @@ nav button{
 #restaurant-header{
     font-size: 6rem;
     background-color: #FFD21F;
+    width: fit-content;
+    justify-self: center;
     /* border-radius: 5px;
     padding: 1rem 3rem; */
     color: #003E1F;
@@ -56,9 +58,16 @@ nav button{
     border-radius: 20px;
 }
 
-#menu{
+#menu-container{
+    display: grid;
+    gap: 3rem;
+    width: 1000px;
+}
+.menu-row{
     display: flex;
-    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
 }
 .menu-item{
     background-color: white;
@@ -69,6 +78,9 @@ nav button{
     height: 250px;
     padding: 1.5rem 0rem 0rem 2rem;
 }
+/* .menu-item:hover{
+    transform: scale(1.1);
+} */
 .menu-item p{
     width: 150px;
 }
