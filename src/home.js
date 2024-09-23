@@ -28,7 +28,3 @@ function loadHome(){
         homeImage.setAttribute("alt", "citi field");
     imageDiv.appendChild(homeImage);
 };
-
-
-
-//call loadHome() in the event listener for the homeNav button in index.js
