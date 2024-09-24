@@ -90,3 +90,12 @@ nav button{
     padding: 10px 50px;
     text-align: center;
 }
+#footer{
+    justify-self: center;
+}
+#copyright{
+    font-family: "Playfair Display", serif;
+    font-weight:600;
+    color:#FFD21F;
+    justify-self: center;
+}

@@ -19,6 +19,4 @@ function loadAbout(){
         p2.textContent = "We'll have more of these in the future, so don't sweat it if you can't make it this time! We hope you're able to come by for our pop-up cafe experience at our new home in Astoria. "
         messageBox.appendChild(p2);
     content.appendChild(messageBox);
-
-    
 };
