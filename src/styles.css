@@ -74,6 +74,10 @@ nav button{
     width: 200px;
     height: 250px;
     padding: 1.5rem 0rem 0rem 2rem;
+    transition: transform .5s ease;
+}
+.menu-item:hover{
+    transform: scale(1.1);
 }
 .menu-item p{
     width: 150px;

@@ -60,6 +60,13 @@ function loadMenu(){
             const description = document.createElement('p');
                 description.textContent = menu[item].description;
                 itemCard.appendChild(description);
+
+            // itemCard.addEventListener("mouseover", function(){
+            //     this.style.transform = 'scale(1.1)';
+            // })
+            // itemCard.addEventListener("mouseout", function(){
+            //     this.style.transform = 'scale(1)'
+            // })
         row.appendChild(itemCard);
     };
 };
